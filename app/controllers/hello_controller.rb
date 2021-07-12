@@ -9,7 +9,7 @@ class HelloController < ApplicationController
     </body>
     </html>
     '
-      render html: msg
+      render html: msg.html_safe
   end
-  
+
 end
